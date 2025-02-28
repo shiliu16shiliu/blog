@@ -22,7 +22,7 @@ nginx代理默认会把header中参数的 "\_" 下划线去掉，所以后台服
 underscores_in_headers on; #该属性默认为off，表示如果header name中包含下划线，则忽略掉。
 ```
 
-​![image](https://raw.githubusercontent.com/shiliu16shiliu/blog/master/images/image-20250223190222-vcqvfbn.png)​
+​![image](assets/image-20250223190222-vcqvfbn.png)​
 
 ## 2.定时清空access.log或error.log日志
 
