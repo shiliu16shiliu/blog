@@ -39,13 +39,7 @@ cd nginx-<version>
 git clone https://github.com/zhouchangxun/ngx_healthcheck_module.git
 ```
 
-‍
-
-‍
-
-‍
-
-#### 3 **. 检查现有模块**
+3 **. 检查现有模块**
 
 查看当前 Nginx 的编译参数，确保新编译的 Nginx 包含所有需要的模块：
 
@@ -71,11 +65,7 @@ nginx -V
     --prefix=/usr/local/nginx
 ```
 
-‍
-
-‍
-
-#### 5 **. 编译并安装**
+5 **. 编译并安装**
 
 ```undefined
 make
